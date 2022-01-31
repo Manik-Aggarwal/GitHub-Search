@@ -118,6 +118,10 @@ body {
     margin-right: 5px;
   }
 
+  .tweet{
+    color: #fff;
+  }
+
   .search_form {
     width: 100%;
     max-width: 330px;

@@ -73,7 +73,7 @@ const renderProfile = (data) => {
   if (data.twitter_username !== null) {
     profileSnnipet += `<div class="margin-top-20 profile-desc-link">
                     <i class="fab fa-twitter"></i>
-                    <a target="_blank" href="https://www.twitter.com/${data.twitter_username}">@${data.twitter_username}</a>
+                    <a target="_blank" class="tweet" href="https://www.twitter.com/${data.twitter_username}">@${data.twitter_username}</a>
                     </div>`;
   }
   profileSnnipet += `</div>`;
